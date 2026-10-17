@@ -25,8 +25,11 @@ public class Arraylistexample {
         for(int i=0;i<5;i++ ){
             list.add(in.nextInt());
         }
-        System.out.println(list);
+        for(int i=0;i<5;i++ ){
+            System.out.print(list.get(i));
+        
+        System.out.println(list); 
 
-            
+        }}           
 }
-}
+
